@@ -1,0 +1,159 @@
+/*** sectioning elements ***/
+@font-face {
+    font-family: "Living Hell";
+    src: url(../fonts/living_hell.ttf);
+}
+
+@font-face {
+    font-family: "Highway to Hell";
+    src: url(../fonts/highway_to_hell.ttf);
+}
+body {
+font-size: 30px;
+background-color: #d9d9d9;
+padding: 20px;
+}
+
+header {
+font-family: "Living Hell";
+}
+
+main {
+}
+
+footer {
+font-family: "Living Hell";
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+font-size: 90px;
+font-family: "Living Hell";
+color: #000;
+}
+
+h2 {
+font-size: 30px;
+}
+
+h3 {
+text-align: center;
+}
+
+h4 {
+font-size: 20px;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+font-size: 30px;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+
+/*** link styles ***/
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+
+}
+
+a:visited {
+    color: #ff0000;
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+/***Odin Overide***/
+
+.navbar-menu a:link, a:visited{
+
+}
+
+@media (max-width: 600px) {
+  .navbar-menu a:link, a:visited{
+    font-size: 125x;
+  }
+}
+
+.super-important{
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.important{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.heated{
+font-family: "Living Hell";
+}
+
+.small{
+  font-size: 23px;
+}

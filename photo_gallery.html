@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>Heated High Photo Gallery</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/odin-0.9.3.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+  <!-- start making your grid here -->
+  <header>
+  <title>Heated High Staff Directory</title>
+</header>
+
+<body>
+
+  <!-- start making your grid here -->
+<header>
+<div class="container-xl">
+  <div class="row">
+  <div class="col-sm-6 center-vertical"><h1>HEATED HIGH!</h1></div>
+  <div class="col-sm-6"><img class="center" src="img/Red-Devil-Logo2.png"> </div>
+</div>
+
+<nav class="navbar navbar-slideout-md">
+  <button class="menu-toggle" aria-label="Toggle navigation">&#9776;
+</button>
+
+<div class="navbar-menu">
+  <button class="menu-dismiss" aria-label="Dismiss navigation">&times;
+</button>
+
+<ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="#">Parents and Students</a></li>
+ <li><a href="#">About Us</a></li>
+ <li><a href="staff.html">Staff Directory</a></li>
+ <li><a href="#">Guidance</a></li>
+ <li><a href="photo_gallery.html">Photo Gallery</a></li>
+</ul>
+</div>
+</nav>
+</header>
+
+  <div class="photogallery">
+<a href="img/basketball.png" data-lightbox="My loves" data-title="Allie and Leya playing basketball">
+  <img src="img/basketballthumb.png" alt="Allie Playing Basketball"
+</a>
+
+<a href="img/boy_basketball.png" data-lightbox="My loves" data-title="Jackson playing basketball">
+  <img src="img/boy_basketball_thumb.png" alt="Jackson playing basketball"
+</a>
+
+<a href="img/soccer.png" data-lightbox="My loves" data-title="Martinez playing Soccer">
+  <img src="img/soccerthumb.png" alt="Martinez playing Soccer"
+</a>
+
+<a href="img/tennis.png" data-lightbox="My loves" data-title="Jake Playing Tennis">
+  <img src="img/tennis_thumb.png" alt="Jake Playing Tennis"
+</a>
+
+<a href="img/gymnastics.png" data-lightbox="My loves" data-title="Our Gymnastics">
+  <img src="img/gymnasticsthumb.png" alt="Our Gymnastics"
+</a>
+
+<a href="img/volleyball.jpg" data-lightbox="My loves" data-title="Our Volleyball Team">
+  <img src="img/volleyballthumb.jpg" alt="Our Volleyball Team"
+</a>
+
+
+  <!-- include any javascript below this line -->
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/odin-0.7.1.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        autoplay : true,
+        autoplayHoverPause : true,
+        autoplayTimeout : 2000,
+        items : 1,
+        loop : true
+      })
+     })
+    </script>
+</body>
+</html>
